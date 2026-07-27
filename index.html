@@ -21,6 +21,7 @@ header h1{font-size:17px;margin:0;font-weight:700;}
 .kpi .lbl{color:var(--muted);font-size:12px;margin-bottom:5px;}
 .kpi .val{font-size:22px;font-weight:700;}
 .kpi .val.bad{color:var(--bad);}.kpi .val.warn{color:var(--warn);}.kpi .val.purple{color:var(--purple);}
+.kpi .sub{font-size:10.5px;color:var(--muted);margin-top:3px;line-height:1.3;}
 .toolbar{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:12px;align-items:center;}
 input[type=text],select{padding:9px 11px;border:1px solid var(--line);border-radius:8px;font-size:13px;background:#fff;}
 #search{flex:1;min-width:240px;}
@@ -66,8 +67,8 @@ tbody tr.sel{background:#e8f1ff;}
 </header>
 <div class="wrap">
 <div class="kpis">
-<div class="kpi"><div class="lbl">총 취급 품목</div><div class="val" id="k-total">-</div></div>
-<div class="kpi"><div class="lbl">6개월 매출 발생 품목</div><div class="val" style="color:var(--brand)" id="k-sale6">-</div></div>
+<div class="kpi"><div class="lbl">총 취급 품목</div><div class="val" id="k-total">-</div><div class="sub">판매이력 '23.1~'26.7 + 현재고 '26.7.27</div></div>
+<div class="kpi"><div class="lbl">6개월 매출 발생 품목</div><div class="val" style="color:var(--brand)" id="k-sale6">-</div><div class="sub">'26.1.27 ~ 현재</div></div>
 <div class="kpi"><div class="lbl">재고 소진</div><div class="val bad" id="k-short">-</div></div>
 <div class="kpi"><div class="lbl">소비기한 임박 (60일↓)</div><div class="val warn" id="k-exp">-</div></div>
 <div class="kpi"><div class="lbl">출고관리 품목</div><div class="val purple" id="k-mgmt">-</div></div>
